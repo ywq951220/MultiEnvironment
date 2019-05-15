@@ -1,6 +1,7 @@
 package com.boyang;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
@@ -22,6 +23,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 启动的方式
  */
 @SpringBootApplication
+//@EnableAutoConfiguration(exclude = {})// 大括号内写的是【自动配置类.class】
 //@PropertySource("classpath:/config/config.properties")  //指定配置文件的位置
 public class MultiEnvironmentApplication {
 
