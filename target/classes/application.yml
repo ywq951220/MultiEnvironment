@@ -1,0 +1,6 @@
+# 默认提供的编写配置信息的文件
+
+# 选择使用哪套配置信息(application-dev.yml和application-pro.yml)
+spring:
+  profiles:
+    active: pro
